@@ -1,5 +1,5 @@
 // This is a basic C program to input an array and print the count of odd elements in that array
-
+/*
 #include <stdio.h>
 int main(){
   int n;
@@ -24,3 +24,20 @@ int main(){
     }
   return 0;
   }
+*/
+
+// write a program to print all the prime numbers from 1 and n.
+#include <stdio.h>
+int prime_checker(int n){
+  for(int i=2; i<n; i++){
+    for(int j=2; j<n; j++){
+      
+    }
+  }
+}
+int main(){
+  int n;
+  printf("Enter a number: ");
+  scanf("%d", &n);
+  return 0;
+}
