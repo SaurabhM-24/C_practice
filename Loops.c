@@ -31,13 +31,19 @@ int main(){
 int prime_checker(int n){
   for(int i=2; i<n; i++){
     for(int j=2; j<n; j++){
-      
-    }
+      if(int i % j == 0){
+        break;
+      }
+      else{
+        printf(i);
+      }
+      }
   }
 }
 int main(){
   int n;
   printf("Enter a number: ");
   scanf("%d", &n);
+  prime_checker(n);
   return 0;
 }
