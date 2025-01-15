@@ -30,13 +30,17 @@ int main(){
 #include <stdio.h>
 int prime_checker(int n){
   for(int i=2; i<n; i++){
-    for(int j=2; j<n; j++){
-      if(int i % j == 0){
+      int counter = 0;
+    for(int j=2; j<i; j++){
+      if(i % j == 0){
         break;
       }
       else{
-        printf(i);
+        counter += 1;
       }
+      }
+      if(counter == i - 2){
+          printf("%d\n", i);
       }
   }
 }
