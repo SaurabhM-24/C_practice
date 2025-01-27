@@ -26,6 +26,8 @@ int main(){
   }
 */
 
+#---------------------------------------------------------------
+
 // write a program to print all the prime numbers from 1 and n.
 #include <stdio.h>
 int prime_checker(int n){
