@@ -46,6 +46,7 @@ int prime_checker(int n){
       }
   }
 }
+
 int main(){
   int n;
   printf("Enter a number: ");
