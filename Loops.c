@@ -27,6 +27,7 @@ int main(){
   return 0;
   }
 */
+
 #---------------------------------------------------------------
 
 // write a program to print all the prime numbers from 1 and n.
