@@ -42,10 +42,10 @@ int prime_checker(int n){
       else{
         counter += 1;
       }
-      }
-      if(counter == i - 2){
-          printf("%d\n", i);
-      }
+    }
+    if(counter == i - 2){
+        printf("%d\n", i);
+    }
   }
 }
 
