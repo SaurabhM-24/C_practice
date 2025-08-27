@@ -3,6 +3,7 @@
 #include <stdio.h>
 int main(){
   int n;
+  
   printf("Enter the size of list: ");
   scanf("%d", &n);
   int arr[n];
