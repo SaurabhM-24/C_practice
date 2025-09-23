@@ -24,9 +24,11 @@ int main(){
     if(count>0){
         printf("%d", count);
     }
+      
     else{
         printf("No odd number present in the list");
     }
+  
   return 0;
   }
 
