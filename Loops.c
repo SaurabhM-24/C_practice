@@ -7,7 +7,9 @@ int main(){
   
   printf("Enter the size of list: ");
   scanf("%d", &n);
+  
   int arr[n];
+
   
   printf("Enter the elements of the list: ");
   for(int i=0; i<n; i++){
