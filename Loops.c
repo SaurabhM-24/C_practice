@@ -21,6 +21,7 @@ int main(){
       count++;
     }
   }
+  
     if(count>0){
         printf("%d", count);
     }
