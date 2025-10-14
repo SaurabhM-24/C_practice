@@ -3,6 +3,7 @@
 #include <stdio.h>
 
 int main(){
+  
   int n;
   
   printf("Enter the size of list: ");
@@ -11,6 +12,7 @@ int main(){
   int arr[n];
   printf("Enter the elements of the list: ");
   for(int i=0; i<n; i++){
+    
     scanf("%d", &arr[i]);
   }
   
@@ -19,6 +21,7 @@ int main(){
   for(int i=0; i<n; i++){
     if(arr[i] % 2 != 0){
       count++;
+      
     }
   }
   
