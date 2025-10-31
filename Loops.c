@@ -47,6 +47,7 @@ int prime_checker(int n){
         break;
       }
       else{
+        
         counter += 1;
       }
     }
